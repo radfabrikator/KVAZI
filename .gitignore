@@ -1,0 +1,22 @@
+# KiCad helyi előzmények
+.history/
+
+# KiCad backupok
+*-backups/
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# KiCad helyi beállítások
+*.kicad_prl
+
+# KiCad lock fájlok
+~*.lck
+
+# CorelDRAW backupok
+Backup_of_*.cdr
+
+# Ideiglenes fájlok
+*.tmp
+~*

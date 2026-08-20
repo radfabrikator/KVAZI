@@ -1,0 +1,9 @@
+Manufacturer=SCHURTER
+PartNumber=0031.8231
+PartCategory=Hardware
+PackageCategory=Other
+PinCount=4
+Version=3.7
+Released=2024-03-21 04:39:49
+Downloaded=2026-07-19 19:55:49
+3D=Y

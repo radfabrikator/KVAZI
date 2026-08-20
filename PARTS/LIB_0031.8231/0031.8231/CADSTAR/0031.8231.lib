@@ -1,0 +1,18 @@
+.0031.8231 :1 ;Fuse Holder OGD FUSEHOLDER 5X20/6.3X32
+"00318231"
+*STM H
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN 0031.8231
+~!Manufacturer_Name (SCHURTER)
+~!Manufacturer_Part_Number (0031.8231)
+~!Mouser Part Number (693-0031.8231)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Schurter/0031.8231?qs=ExMueETPIigm1KV%252B6T9rnw%3D%3D)
+~!Arrow Part Number (0031.8231)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/0031.8231/schurter?utm_currency=USD&region=europe)
+~!Link Datasheet (https://www.schurter.com/en/datasheet/typ_OGD.pdf)
+~!Height (12.7mm)
+~!3D_Model (0031.8231)
+"0031.8231"
+1.1!U 2.1!U 3.1!U 4.1!U 
