@@ -133,7 +133,7 @@
 		(descr "Resistor, Axial_Power series, Box, pin pitch=27.94mm, 7W, length*width*height=25*9*9mm^3, http://cdn-reichelt.de/documents/datenblatt/B400/5WAXIAL_9WAXIAL_11WAXIAL_17WAXIAL%23YAG.pdf")
 		(tags "Resistor Axial_Power series Box pin pitch 27.94mm 7W length 25mm width 9mm height 9mm")
 		(property "Reference" "R13"
-			(at 13.97 -0.0332 0)
+			(at 31.725 -0.111337 0)
 			(layer "B.SilkS")
 			(uuid "47325fdd-3a08-4260-b889-a2e63d2887ea")
 			(effects
@@ -141,6 +141,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=1"
@@ -399,7 +400,7 @@
 		(uuid "0a5b1704-e613-4e3d-8f4d-b294e337cae9")
 		(at 150 68.32)
 		(property "Reference" "Q3"
-			(at -1.018488 -2.3688 0)
+			(at -5.35 -0.02 0)
 			(layer "B.SilkS")
 			(uuid "89da65ce-17a9-4ddb-be51-0a104c009ddd")
 			(effects
@@ -407,6 +408,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "BC546B"
@@ -698,7 +700,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 4.8996 0.1016 90)
+			(at 12.68 0 0)
 			(layer "B.SilkS")
 			(uuid "ac0d69b4-6b97-477d-800b-4feb0e1c55ee")
 			(effects
@@ -706,6 +708,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=10k"
@@ -937,7 +940,7 @@
 		(descr "C, Rect series, Radial, pin pitch=10.00mm, length*width=13*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf")
 		(tags "C Rect series Radial pin pitch 10.00mm length 13mm width 5mm Capacitor")
 		(property "Reference" "C10"
-			(at 4.5936 -0.1524 0)
+			(at 5.1 4.025 0)
 			(layer "B.SilkS")
 			(uuid "45f869cd-ce49-4268-a254-97eb7c1c38ca")
 			(effects
@@ -945,6 +948,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "c=100n"
@@ -1165,7 +1169,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=6*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 6mm width 2.5mm Capacitor")
 		(property "Reference" "C11"
-			(at 2.1 2.35 90)
+			(at -2.45 0 0)
 			(layer "B.SilkS")
 			(uuid "1f323a09-fd2b-4fa8-96ca-48efbd5796cf")
 			(effects
@@ -1173,6 +1177,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "c=100p"
@@ -1413,7 +1418,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
-			(at 4.826 0.085533 90)
+			(at 5.105 -3.125 0)
 			(layer "B.SilkS")
 			(uuid "6c610fc6-317d-48fd-9f4b-98e3f965f075")
 			(effects
@@ -1421,6 +1426,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=470k"
@@ -1660,6 +1666,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "250k"
@@ -1934,7 +1941,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=16mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
 		(property "Reference" "C8"
-			(at 2.5 6.25 0)
+			(at 2.467677 6.4 0)
 			(layer "B.SilkS")
 			(uuid "8bde1358-43cd-4ade-b081-588c0ec7ff09")
 			(effects
@@ -1942,6 +1949,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "c=100u"
@@ -4074,7 +4082,7 @@
 		(descr "Generic Phoenix Contact connector footprint for: MCV_1,5/2-G-5.08; number of pins: 02; pin pitch: 5.08mm; Vertical || order number: 1836299 8A 320V")
 		(tags "phoenix_contact connector MCV_01x02_G_5.08mm")
 		(property "Reference" "36V~1"
-			(at 2.54 5.55 0)
+			(at 11.228324 0.110302 0)
 			(layer "B.SilkS")
 			(uuid "e0aa8564-fa95-4c1c-b427-686d097671e0")
 			(effects
@@ -4082,6 +4090,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
@@ -4542,7 +4551,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=10.00mm, diameter=25mm, height=45mm, Electrolytic Capacitor, http://www.vishay.com/docs/28342/058059pll-si.pdf")
 		(tags "CP Radial series Radial pin pitch 10.00mm diameter 25mm height 45mm Electrolytic Capacitor")
 		(property "Reference" "C9"
-			(at 2.6 5.7 90)
+			(at 4.95537 14.55 0)
 			(layer "B.SilkS")
 			(uuid "f3a4c324-a921-408f-b521-2ad959b96bca")
 			(effects
@@ -4550,6 +4559,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "c=3300u"
@@ -9052,7 +9062,7 @@
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R10"
-			(at 8.7892 0 0)
+			(at 18.845 0 0)
 			(layer "B.SilkS")
 			(uuid "e17c399e-4e1f-4c83-a5ac-7810f4ef3962")
 			(effects
@@ -9060,6 +9070,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=56"
@@ -9291,7 +9302,7 @@
 		(descr "Resistor, Axial_Power series, Box, pin pitch=27.94mm, 7W, length*width*height=25*9*9mm^3, http://cdn-reichelt.de/documents/datenblatt/B400/5WAXIAL_9WAXIAL_11WAXIAL_17WAXIAL%23YAG.pdf")
 		(tags "Resistor Axial_Power series Box pin pitch 27.94mm 7W length 25mm width 9mm height 9mm")
 		(property "Reference" "R17"
-			(at 13.8684 0.1524 0)
+			(at 9.075 6.075 0)
 			(layer "B.SilkS")
 			(uuid "bbd081e6-b8d0-45b0-a707-fc53f3614ab5")
 			(effects
@@ -9299,6 +9310,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=10"
@@ -9560,7 +9572,7 @@
 			(at 0.0008 10.7736 0)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "5d95396a-abb4-46c6-9231-c4352e635db0")
+			(uuid "f43cfd6c-3bd3-40b3-96ca-1d1af9788aaf")
 			(effects
 				(font
 					(size 1 1)
@@ -9572,7 +9584,7 @@
 			(at 0.05 17.15 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "444c75ec-dc6a-44e2-a764-5e1de5a7c379")
+			(uuid "baf4862f-b5f2-4c7d-9398-e21b0654a293")
 			(effects
 				(font
 					(size 1 1)
@@ -9586,7 +9598,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "59c627ce-a2ee-4708-bee7-1000123b915e")
+			(uuid "8bf09761-7e47-4f7f-ba83-ccef5bf67090")
 			(effects
 				(font
 					(size 1 1)
@@ -9600,7 +9612,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "def3194e-c022-48fa-bc96-9c15ed38c077")
+			(uuid "388d4032-71cf-452d-9803-9be9900937f2")
 			(effects
 				(font
 					(size 1 1)
@@ -9632,7 +9644,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(embedded_fonts no)
@@ -9663,6 +9674,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "1k"
@@ -9937,7 +9949,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 4.9784 0 0)
+			(at -2.925 -0.025 0)
 			(layer "B.SilkS")
 			(uuid "4347435a-cc31-4618-b905-ca8a50e79191")
 			(effects
@@ -9945,6 +9957,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=82k"
@@ -10176,7 +10189,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R6"
-			(at 5.08 0 90)
+			(at 4.91 -2.975 0)
 			(layer "B.SilkS")
 			(uuid "ed68b085-960b-4200-b005-1c1da4231a84")
 			(effects
@@ -10184,6 +10197,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=91"
@@ -10415,7 +10429,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R7"
-			(at 5.08 -0.2 0)
+			(at -3.025 -0.025 0)
 			(layer "B.SilkS")
 			(uuid "24663180-41ae-48c1-b4a7-4862268948cf")
 			(effects
@@ -10423,6 +10437,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=330"
@@ -10654,7 +10669,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R5"
-			(at 5.025 0 90)
+			(at -2.325 0 0)
 			(layer "B.SilkS")
 			(uuid "0a9077d5-ea88-4a4b-9f7e-8ab44e3ab9cb")
 			(effects
@@ -10662,6 +10677,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=5.6k"
@@ -10892,7 +10908,7 @@
 		(at 131.1825 68.553 180)
 		(tags "BD140 ")
 		(property "Reference" "Q5"
-			(at 2.4583 2.5432 0)
+			(at 9.5575 0.078 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "d7e55bbd-b831-46eb-b9ea-defa06521766")
@@ -10901,6 +10917,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "BD140"
@@ -11238,7 +11255,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R9"
-			(at 5.33 0 0)
+			(at 5.33 2.775 0)
 			(layer "B.SilkS")
 			(uuid "b29a37da-3ddc-4b78-ae43-cde245606f5a")
 			(effects
@@ -11246,6 +11263,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=2.2k"
@@ -11483,6 +11501,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "BC556B"
@@ -11774,7 +11793,7 @@
 		(descr "Resistor, Axial_Power series, Box, pin pitch=27.94mm, 7W, length*width*height=25*9*9mm^3, http://cdn-reichelt.de/documents/datenblatt/B400/5WAXIAL_9WAXIAL_11WAXIAL_17WAXIAL%23YAG.pdf")
 		(tags "Resistor Axial_Power series Box pin pitch 27.94mm 7W length 25mm width 9mm height 9mm")
 		(property "Reference" "R14"
-			(at 14.3764 0.3556 0)
+			(at 32.09 0.388664 0)
 			(layer "B.SilkS")
 			(uuid "a8f566b4-32b4-44d9-9acd-1b0147f6844c")
 			(effects
@@ -11782,6 +11801,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=1"
@@ -12042,7 +12062,7 @@
 		(descr "Resistor, Axial_Power series, Box, pin pitch=27.94mm, 7W, length*width*height=25*9*9mm^3, http://cdn-reichelt.de/documents/datenblatt/B400/5WAXIAL_9WAXIAL_11WAXIAL_17WAXIAL%23YAG.pdf")
 		(tags "Resistor Axial_Power series Box pin pitch 27.94mm 7W length 25mm width 9mm height 9mm")
 		(property "Reference" "R15"
-			(at 14.224 0.6096 0)
+			(at 31.525 0.063664 0)
 			(layer "B.SilkS")
 			(uuid "00047025-5504-4584-a534-612e2486dd79")
 			(effects
@@ -12050,6 +12070,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=1"
@@ -12309,7 +12330,7 @@
 		(at 170.875 120.015 90)
 		(tags "BD139 ")
 		(property "Reference" "Q2"
-			(at 2.54 -2.488571 270)
+			(at 8.165 0 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "e2ecb7d5-3472-4481-b4fd-617ec1c70eb8")
@@ -12318,6 +12339,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "BD139"
@@ -12655,7 +12677,7 @@
 		(descr "C, Rect series, Radial, pin pitch=10.00mm, length*width=13*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf, http://www.wima.com/EN/WIMA_MKS_4.pdf")
 		(tags "C Rect series Radial pin pitch 10.00mm length 13mm width 5mm Capacitor")
 		(property "Reference" "C3"
-			(at 5.254 0.3556 0)
+			(at 5.196812 4.136352 0)
 			(layer "B.SilkS")
 			(uuid "fe4106fd-1a5b-4de2-bdc0-6b27839414aa")
 			(effects
@@ -12663,6 +12685,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "c=100n"
@@ -12883,7 +12906,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R8"
-			(at 5.334 0.1016 0)
+			(at 5.325 -3.15 0)
 			(layer "B.SilkS")
 			(uuid "6d26be02-794a-45a7-ad3f-4aba796c2be2")
 			(effects
@@ -12891,6 +12914,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=2.2k"
@@ -13122,7 +13146,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=16mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
 		(property "Reference" "C6"
-			(at 2.5 6.25 180)
+			(at 2.442677 -6.325 180)
 			(layer "B.SilkS")
 			(uuid "25214d06-3273-4190-b327-3701a9936c39")
 			(effects
@@ -13130,6 +13154,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "c=2u"
@@ -15260,7 +15285,7 @@
 		(uuid "b02fe6f3-6861-4e76-9afb-e15c594184d3")
 		(at 102.575 69.75 180)
 		(property "Reference" "Q7"
-			(at -0.0508 3.81 0)
+			(at 10.225 -0.025 0)
 			(layer "B.SilkS")
 			(uuid "4c7e6b4a-1cda-4419-b2e3-79d22a1a9111")
 			(effects
@@ -15268,6 +15293,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TIP35C"
@@ -15738,7 +15764,7 @@
 		(at 184.125 68.553 180)
 		(tags "BD139 ")
 		(property "Reference" "Q4"
-			(at 2.54 2.75 0)
+			(at -3.125 0.028 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "b605a18a-a5b4-4a15-b8c8-59d9d2fce11d")
@@ -15747,6 +15773,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "BD139"
@@ -16092,6 +16119,7 @@
 					(size 1.27 1.27)
 					(thickness 0.254)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "0031.8231"
@@ -16520,7 +16548,7 @@
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R11"
-			(at 7.4168 0.2032 90)
+			(at 7.47 4.725 180)
 			(layer "B.SilkS")
 			(uuid "363074fc-9de0-41ba-802f-baf89bbb3397")
 			(effects
@@ -16528,6 +16556,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=56"
@@ -16759,7 +16788,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=10.00mm, diameter=35mm, height=50mm, Electrolytic Capacitor, http://www.vishay.com/docs/28342/058059pll-si.pdf")
 		(tags "CP Radial series Radial pin pitch 10.00mm diameter 35mm height 50mm Electrolytic Capacitor")
 		(property "Reference" "C4"
-			(at 2.360499 4.6 0)
+			(at 3.95 -19.45 0)
 			(layer "B.SilkS")
 			(uuid "e3491d09-bc5d-451d-ba71-632b2b9a44cb")
 			(effects
@@ -16767,6 +16796,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "c=10000u"
@@ -22527,6 +22557,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=390k"
@@ -22758,7 +22789,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R16"
-			(at 4.982987 -0.076146 0)
+			(at 5 2.55 0)
 			(layer "B.SilkS")
 			(uuid "5678cdb6-a376-4aad-a222-228a4a56dcb5")
 			(effects
@@ -22766,6 +22797,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=10k"
@@ -22997,7 +23029,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=16mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
 		(property "Reference" "C7"
-			(at 2.5 6.25 0)
+			(at -4.15 0 0)
 			(layer "B.SilkS")
 			(uuid "888e3501-73fd-466e-b305-c1ac87d18e92")
 			(effects
@@ -23005,6 +23037,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "c=50u"
@@ -25135,7 +25168,7 @@
 		(uuid "d04d9736-9f03-4bca-a7e0-d105bd99cb70")
 		(at 197.425 69.75 180)
 		(property "Reference" "Q6"
-			(at -0.0508 4.0132 0)
+			(at -10.075 0.025 0)
 			(layer "B.SilkS")
 			(uuid "0d8d50f0-0578-4fd1-b7fb-faf200fa20b6")
 			(effects
@@ -25143,6 +25176,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TIP35C"
@@ -25614,7 +25648,7 @@
 		(descr "Generic Phoenix Contact connector footprint for: MCV_1,5/2-G-5.08; number of pins: 02; pin pitch: 5.08mm; Vertical || order number: 1836299 8A 320V")
 		(tags "phoenix_contact connector MCV_01x02_G_5.08mm")
 		(property "Reference" "IN1"
-			(at 2.54 5.55 90)
+			(at -4.675 0.225 0)
 			(layer "B.SilkS")
 			(uuid "1bcdc3a2-43c0-443c-8662-db7133d5c171")
 			(effects
@@ -25622,6 +25656,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
@@ -26082,7 +26117,7 @@
 		(descr "Resistor, Axial_Power series, Box, pin pitch=27.94mm, 7W, length*width*height=25*9*9mm^3, http://cdn-reichelt.de/documents/datenblatt/B400/5WAXIAL_9WAXIAL_11WAXIAL_17WAXIAL%23YAG.pdf")
 		(tags "Resistor Axial_Power series Box pin pitch 27.94mm 7W length 25mm width 9mm height 9mm")
 		(property "Reference" "R12"
-			(at 13.97 -0.3048 0)
+			(at 31.89 0.138663 0)
 			(layer "B.SilkS")
 			(uuid "883f2d0a-eff6-440a-a4b1-58b370ce9914")
 			(effects
@@ -26090,6 +26125,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=1"
@@ -26350,7 +26386,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=16mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
 		(property "Reference" "C5"
-			(at 2.5 6.25 180)
+			(at 2.467677 6.725 180)
 			(layer "B.SilkS")
 			(uuid "185acdc4-3e7d-4dc1-b160-5fc833fe5a46")
 			(effects
@@ -26358,6 +26394,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "c=10u"
@@ -28490,7 +28527,7 @@
 		(descr "Generic Phoenix Contact connector footprint for: MCV_1,5/2-G-5.08; number of pins: 02; pin pitch: 5.08mm; Vertical || order number: 1836299 8A 320V")
 		(tags "phoenix_contact connector MCV_01x02_G_5.08mm")
 		(property "Reference" "OUT1"
-			(at 2.54 5.55 0)
+			(at 11.275 -0.075 0)
 			(layer "B.SilkS")
 			(uuid "91f25d94-cf42-42e1-acdb-f27468bb511f")
 			(effects
@@ -28498,6 +28535,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
@@ -28958,7 +28996,7 @@
 		(descr "Vishay GBU rectifier package, 5.08mm pitch, see http://www.vishay.com/docs/88606/g3sba20.pdf")
 		(tags "Vishay GBU rectifier diode bridge")
 		(property "Reference" "D1"
-			(at 19.074241 2.5 0)
+			(at 15.625824 3.345552 0)
 			(layer "B.SilkS")
 			(uuid "17a824a7-5a07-4ffc-a8c4-0cb23a41e16b")
 			(effects
@@ -28966,6 +29004,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "GBU8D"
@@ -29340,7 +29379,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R18"
-			(at 5.105 -0.075 90)
+			(at -2.225 0 0)
 			(layer "B.SilkS")
 			(uuid "2ad6ace2-942b-4944-995c-434aa546b24c")
 			(effects
@@ -29348,6 +29387,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "r=1000"
