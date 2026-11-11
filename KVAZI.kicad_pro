@@ -758,11 +758,11 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -813,7 +813,7 @@
         "uuid": "131450cf-31e0-45a2-9331-2f26e5b4f712"
       }
     ],
-    "used_designators": "C1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

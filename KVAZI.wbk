@@ -28,33 +28,16 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(77, 175, 74)",
-          "signal": "V(OUTPUT) (phase)",
-          "trace_type": 517
-        },
-        {
-          "color": "rgb(77, 175, 74)",
-          "signal": "V(OUTPUT) (gain)",
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(OUTPUT)/V(INPUT) (gain)",
           "trace_type": 521
-        },
-        {
-          "color": "rgb(228, 26, 28)",
-          "signal": "I(LS1) (gain)",
-          "trace_type": 522
-        },
-        {
-          "color": "rgb(228, 26, 28)",
-          "signal": "I(LS1) (phase)",
-          "trace_type": 518
         }
       ]
     },
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 100n 30m 0 100n",
-        ".save all",
-        ".probe alli",
+        ".tran 10u 400m 375m 10u",
         ".kicad esavenone"
       ],
       "dottedSecondary": true,
@@ -68,17 +51,12 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(228, 26, 28)",
+          "color": "rgb(77, 175, 74)",
           "signal": "V(OUTPUT)",
           "trace_type": 257
         },
         {
           "color": "rgb(55, 126, 184)",
-          "signal": "I(LS1)",
-          "trace_type": 258
-        },
-        {
-          "color": "rgb(77, 175, 74)",
           "signal": "@q6[ie]",
           "trace_type": 256
         },
@@ -117,11 +95,24 @@
     "V(INPUT)",
     "V(OUTPUT)",
     "I(LS1)",
-    "V(\"/u0\")",
     "@q6[ie]",
     "@q7[ic]",
     "@ls1[i]",
-    "I(vcc1)"
+    "I(vcc1)",
+    "I(LS1)/-I(vin1)",
+    "V(OUTPUT)/V(INPUT)",
+    "V(\"net-_q1-c_\")/V(\"net-_q1-b_\")",
+    "V(\"net-_q2-c_\")/V(\"net-_q1-c_\")",
+    "V(\"net-_c7-pad2_\")/V(\"net-_q2-c_\")",
+    "V(\"net-_q1-b_\")-V(\"net-_q1-e_\")",
+    "V(\"net-_q1-c_\")/(V(\"net-_q1-b_\")-V(\"net-_q1-e_\"))",
+    "V(\"net-_c7-pad2_\")",
+    "V(\"net-_q1-b_\")",
+    "V(\"net-_q1-c_\")",
+    "V(\"net-_q2-c_\")",
+    "(V(\"net-_q1-b_\") - 17.28)/0.225",
+    "(V(\"net-_q1-c_\") - 0.843)/0.0039",
+    "(V(\"net-_q2-c_\") - 19.29)/15.39"
   ],
   "version": 7
 }
